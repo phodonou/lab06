@@ -1,0 +1,52 @@
+/*Now styling topbar: */
+#main-navbar {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    background-color: blue;
+}
+#navbar-container ul {
+    list-style-type: none;
+    position: relative;
+    display: block;
+    float: left;
+    right: 50%;
+}
+#navbar-container ul li {
+    float: left;
+    padding: 10px 20px;
+}
+#navbar-container ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+#navbar-container {
+    left: 50%;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+/*Now styling Sidebar: */
+#sidebar-container ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+#sidebar {
+    position: fixed;
+    background-color: red;
+    height: 100%;
+    width: 10%;
+    right: 0%;
+}
+#sidebar-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+#sidebar-container {
+    text-align: center;
+    display: block;
+}
+#sidebar-container ul li {
+    padding: 15px 0;
+}
