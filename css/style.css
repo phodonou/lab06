@@ -29,8 +29,8 @@
 
 /*Now styling Sidebar: */
 #sidebar-container ul li a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
 }
 #sidebar {
     position: fixed;
@@ -44,8 +44,8 @@
     padding: 0;
 }
 #sidebar-container {
-    text-align: center;
     display: block;
+    text-align: center;
 }
 #sidebar-container ul li {
     padding: 15px 0;
